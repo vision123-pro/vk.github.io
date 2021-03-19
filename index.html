@@ -1,71 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="project.css" />
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-      crossorigin="anonymous"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Akaya+Telivigala&family=Caveat:wght@700&family=Righteous&family=Work+Sans:wght@500&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-  <body>
-    <!-- code of navigation -->
-    <!-- copy from another file(navigation1.html) -->
+   <style>
+       *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
 
-    <div class="main1">                  
-      <a href="#"> </a>
-      <div class="left1">
-        <h2>VK RAJ</h2>
-      </div>
-      <div class="right1">
-        <ul>
-          <li><a href="Card.html">Home</a></li>
-          <li>
-            <a href="project.html" target="_self" class="act1">Project</a>
-          </li>
-          <li><a href="#">Assignment</a></li>
-          <li><a href="#">Gallery</a></li>
-          <li><a href="#">Contact Us</a></li>
-          <li><a href="#">About Us</a></li>
-        </ul>
-      </div>
-    </div>
+header{
+    background-color: blueviolet;
+    display: flex;
+}
+header ul{
+    display: flex;
+    justify-content: flex-end;
+}
 
-    <!-- end of copied code  -->
-    <div class="starting">
-      <div class="a">
-        <p>Welcome</p>
-      </div>
-      <div class="b">
-        <p>To</p>
-      </div>
-      <div class="c">
-        <p>Our</p>
-      </div>
-      <div class="d">
-        <p>Website</p>
-      </div>
-    </div>
-    <div class="starting1">
-      <div class="e">
-        <p>Please</p>
-      </div>
-      <div class="f">
-        <p>Visit</p>
-      </div>
-      <div class="g">
-        <p>Again</p>
-      </div>
-    </div>
-  </body>
+
+
+ul li{
+    list-style: none;
+    padding: 20px;
+    font-size: 20px;
+}
+.right{
+    width: 40%;
+}
+
+
+.left{
+    
+    width: 20%;
+    background-color: chocolate;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.last{
+    width: 30%;
+}
+.last{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.btn{
+    cursor: pointer;
+    width: 70px;
+    height: 30px;
+    padding: 4px;
+    margin-left: 8px;
+}
+   </style>
+</head>
+<body>
+
+<header>
+
+<div class="left">
+    <h2>VK RAJ</h2>
+</div>
+
+<div class="right">
+    <ul>
+        <li>Home</li>
+        <li>Media</li>
+        <li>Contact Us</li>
+        <li>About Us</li>
+    </ul>
+</div>
+
+<div class="last">
+    <button class="btn"  >Log In</button>
+    <button class="btn"  >Sign Up</button>
+</div>
+
+
+
+
+
+
+
+
+
+</header>
+
+</body>
 </html>
